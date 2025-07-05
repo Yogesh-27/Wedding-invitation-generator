@@ -1,0 +1,56 @@
+.app {
+  background-color: #fff6fa;
+  min-height: 100vh;
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.form-preview-wrapper {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+/* .form-container,
+.preview-container {
+  flex: 1 1 480px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  padding: 1.5rem;
+  min-height: 600px;
+}
+
+.preview-title {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.preview-caption {
+  font-size: 0.8rem;
+  color: #888;
+  text-align: center;
+  margin-top: 1rem;
+} */
+
+
+.left-panel,
+.right-panel {
+  margin-top: 2rem;
+  flex: 1 1 500px;       /* responsive width */
+  max-width: 650px;
+  min-height: 800px;     /* match height */
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+/* .Guest-Container {
+  display: flex;
+  justify-content: center;
+} */

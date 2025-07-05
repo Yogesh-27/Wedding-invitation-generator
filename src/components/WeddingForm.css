@@ -1,0 +1,87 @@
+.wedding-form {
+  background-color: #fff;
+  border: 1px solid #ffc9de;
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 600px;
+  margin: 2rem auto;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.wedding-form h2 {
+  color: #d6336c;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 0.5rem;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+} 
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.template-section {
+  margin-top: 1rem;
+}
+
+.template-section label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.template-options {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+
+.template-box:hover {
+  background-color: #fff0f5;
+}
+
+.template-box.selected {
+  border-color: #d6336c;
+  background-color: #fff0f6;
+  color: #d6336c;
+  font-weight: bold;
+  box-shadow: 0 0 0 2px #ffd6e8;
+} 
+
+.template-box {
+  flex: 1 1 calc(25% - 1rem);
+  max-width: 150px;
+  min-width: 120px;
+  height: 80px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  padding: 0.8rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  background-color: #fff;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.2s ease;
+  box-sizing: border-box;
+}
