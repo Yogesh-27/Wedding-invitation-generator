@@ -1,12 +1,38 @@
-# React + Vite
+#  Wedding Invitation Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web-based tool to easily design and generate beautiful wedding invitation cards — all built using **React.js**.
 
-Currently, two official plugins are available:
+##  About the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project was built to strengthen my understanding of React concepts by creating something practical and fun. The Wedding Invitation Generator allows users to:
 
-## Expanding the ESLint configuration
+- Fill in wedding details like names, date, time, venue, and message
+- Choose from **4 beautiful card templates**
+- Preview the invitation in real time
+- Upload a guest list (CSV/manual)
+- Automatically generate & download personalized invites for each guest in **PNG** format
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Live Demo
+
+🌐 [Click here to try it out!](https://wedding-invitation-generator.vercel.app)
+
+> No login required — open and use it freely!
+
+##  Features
+
+-  Dynamic form to capture wedding details
+-  Real-time preview of 4 unique invitation card designs
+-  Guest list upload (CSV format or manual entry)
+-  DOM to Image conversion using `html-to-image`
+-  Bulk image packaging and download via `JSZip`
+-  Deployed on Vercel
+
+##  What I Learned
+
+- React components, props, and state management
+- File input handling and parsing CSVs in the browser
+- Rendering and exporting DOM elements as images
+- Bundling images as ZIP for download
+- Deploying React apps on Vercel
+
+
