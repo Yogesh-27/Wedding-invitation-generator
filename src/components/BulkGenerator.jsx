@@ -58,7 +58,7 @@ const BulkGenerator = ({ guestList, formData }) => {
 
   return (
     <div className="bulk-generator" style={{ textAlign: 'center', padding: '2rem' }}>
-      <h2>🎁 Bulk Invitation Generator</h2>
+      <h2> Bulk Invitation Generator</h2>
 
       {isGenerating ? (
         <div style={{ margin: '1rem 0', color: '#b03060' }}>

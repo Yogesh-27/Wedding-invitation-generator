@@ -41,7 +41,7 @@ function CardPreview({ data, guestName }) {
 
           <div className="wedding-message">"{message}"</div>
 
-          <div className="footer-template">Theme: <strong>{template}</strong></div>
+          {/* <div className="footer-template">Theme: <strong>{template}</strong></div> */}
         </div>
       </div>
     </div>

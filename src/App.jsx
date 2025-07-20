@@ -1,4 +1,3 @@
-// App.jsx
 import './App.css';
 import Header from './components/Header';
 import WeddingForm from './components/WeddingForm';

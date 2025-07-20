@@ -1,4 +1,3 @@
-// WeddingForm.jsx
 import React, { useState } from 'react';
 import './WeddingForm.css';
 
